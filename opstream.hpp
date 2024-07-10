@@ -4,7 +4,7 @@
 
 class OutputBitStream:
 public:    
-    //Constructor | Input: An output stream | Initialises bitvec with 0, numbits with 0 and outfile to a variable called output_stream
+    //Constructor | Input: An output stream | Initialises bitvec with 0, numbits with 0 and outfile to a jariable called output_stream
     OutputBitStream( std::ostream& output_stream ): bitvec {0}, numbits {0}, outfile {output_stream} { 
     }
 
